@@ -1,0 +1,795 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<title>Planeta Curioso</title>
+<link href="jquery.mobile.theme-1.0.min.css" rel="stylesheet" type="text/css"/>
+<link href="jquery.mobile.structure-1.0.min.css" rel="stylesheet" type="text/css"/>
+<script src="jquery-1.6.4.min.js" type="text/javascript"></script>
+<script src="jquery.mobile-1.0.min.js" type="text/javascript"></script>
+</head> 
+<body> 
+
+<div data-role="page" id="page1">
+	<div data-role="header">
+		<h1>Planeta Curioso <img src="imagenes/planeta.gif" width="91" height="88" align="middle"></h1>
+	</div>
+	<div data-role="content">
+    <h2> Bienvenidos al Lugar Curiosesco </h2>
+    <br/>
+    	
+		<ul data-role="listview">
+			<li><a href="#page2">Animalandía Curiosa <img src="imagenes/lupa.png" width="72" height="77" align="middle"></a></li>
+            <li><a href="#page3">¿Sabías qué...? <img src="imagenes/sabias.png" width="72" height="92" align="middle"></a></li>
+			<li><a href="#page4">Imagenes Interesantes <img src="imagenes/cerebro.png" width="80" height="66" align="middle"></a></li>
+		</ul>		
+	</div>
+	<div data-role="footer">
+		<h4>Marian Carmona</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page2">
+	<div data-role="header">
+		<h1 align="center">Animalandia Curiosa <img src="imagenes/lupa.png" width="80" height="79" align="middle"></h1>
+        <div align="center">
+          <table width="66" height="118">
+            <tr>
+              <td width="58"><a href="#page1"><img src="imagenes/volver.png" width="61" height="64"></a></td>
+              </tr>
+            <tr>
+              <td> Volver </td>
+              </tr>
+            </table>
+        </div>
+	</div>
+	<div data-role="content">	
+		<ul data-role="listview">
+			<li><a href="#page5">Aguja Colipinta <img src="imagenes/colipinta.jpg" width="141" height="129" align="middle"></a></li>
+            <li><a href="#page6">Ojos de Pulpo <img src="imagenes/pulpo.jpg" width="169" height="122" align="middle"></a></li>
+			<li><a href="#page7">Insecto más Raro del Mundo <img src="imagenes/insecto.jpg" width="146" height="151" align="middle"></a></li>
+            <li><a href="#page8">Tiburon Marrajo <img src="imagenes/tiburon.jpg" width="134" height="110" align="middle"></a></li>
+            <li><a href="#page9">Mariposas Beben Lágrimas de Tortugas <img src="imagenes/mariposa.jpg" width="124" height="115" align="middle"></a></li>
+            <li><a href="#page10">Escarabajos Peloteros Navegan por la Vía Láctea <img src="imagenes/escarabajo.jpg" width="142" height="112" align="middle"></a></li>
+            <li><a href="#page11">Los Delfines No Duermen <img src="imagenes/delfin.jpg" width="123" height="85" align="middle"></a></li>
+            <li><a href="#page12">Los Cocodrilos No Envejecen <img src="imagenes/coco.jpg" width="123" height="85" align="middle"></a></li>
+            <li><a href="#page13">Búhos Domesticados <img src="imagenes/buho.jpg" width="123" height="85" align="middle"></a></li>
+            <li><a href="#page14">Brazos de un Pulpo <img src="imagenes/pulpoc.jpg" width="123" height="85" align="middle"></a></li>
+		</ul>			
+	</div>
+	<div data-role="footer">
+		<h4>Bibliografía: http://www.planetacurioso.com/ </h4>
+	</div>
+</div>
+
+<div data-role="page" id="page3">
+	<div data-role="header">
+		<h1 align="center">¿Sabías qué...? <img src="imagenes/sabias.png" width="72" height="92" align="middle"></h1>
+        <div align="center">
+          <table width="66" height="118">
+            <tr>
+              <td width="58"><div align="justify"><a href="#page1"><img src="imagenes/volver.png" width="61" height="64"></a></div></td>
+            </tr>
+            <tr>
+              <td> Volver </td>
+            </tr>
+          </table>
+        </div>
+	</div>
+	<div data-role="content">	
+		<ul data-role="listview">
+			<li><a href="#page15">Corazón de una Mujer <img src="imagenes/cmujer.jpg" width="123" height="85" align="middle"></a></li>
+            <li><a href="#page16">Envejecimiento <img src="imagenes/envejecer.jpg" width="123" height="85" align="middle"></a></li>
+			<li><a href="#page17">Primer Computadora <img src="imagenes/compu.jpg" width="123" height="85" align="middle"></a></li>
+            <li><a href="#page18">La Vía Láctea <img src="imagenes/vialactea.jpg" width="123" height="85" align="middle"></a></li>
+            <li><a href="#page19">Las Auroras de Júpiter <img src="imagenes/jupiter.jpg" width="150" height="85" align="middle"></a></li>
+            <li><a href="#page20">El Niño que Fue Campeón <img src="imagenes/niño.jpg" width="123" height="85" align="middle"></a></li>
+            <li><a href="#page21">El Terrorífico Gusano del Fondo Marino <img src="imagenes/gusano.jpg" width="123" height="85" align="middle"></a></li>
+		</ul>			
+	</div>
+	<div data-role="footer">
+		<h4>Bibliografía: http://www.planetacurioso.com/ </h4>
+	</div>
+</div>
+
+<div data-role="page" id="page4">
+	<div data-role="header">
+		<h1 align="center">Imagenes Interesantes <img src="imagenes/cerebro.png" width="80" height="66" align="middle"></h1>
+        <div align="center">
+          <table width="66" height="118">
+            <tr>
+              <td width="58"><div align="justify"><a href="#page1"><img src="imagenes/volver.png" width="61" height="64"></a></div></td>
+            </tr>
+            <tr>
+              <td> Volver </td>
+            </tr>
+          </table>
+        </div>
+	</div>
+	<div data-role="content">	
+		<div align="center">
+		  <table width="756" height="413">
+		    <tr> 
+		      <td> <div align="center"><img src="imagenes/i1.jpg" width="142" height="124" align="middle"> </div></td>
+		      <td> <div align="center"><img src="imagenes/i2.png" width="194" height="156" align="middle"> </div></td>
+		      <td> <div align="center"><img src="imagenes/i3.png" width="189" height="153" align="middle"> </div></td>
+	        </tr>
+		    
+		    <tr>
+		      <td> <div align="center"><img src="imagenes/i4.jpg" width="186" height="134" align="middle"> </div></td>
+		      <td> <div align="center"><img src="imagenes/i5.jpg" width="181" height="136" align="middle"> </div></td>
+		      <td> <div align="center"><img src="imagenes/i6.jpg" width="186" height="146" align="middle"> </div></td>
+	        </tr>
+		    
+		    <tr> 
+		      <td> <div align="center"><img src="imagenes/i7.jpg" width="185" height="137" align="middle"> </div></td>
+		      <td> <div align="center"><img src="imagenes/i8.jpg" width="198" height="197" align="middle"> </div></td>
+		      <td> <div align="center"><img src="imagenes/i9.jpg" width="185" height="193" align="middle"> </div></td>
+	        </tr>
+		    
+		    <tr>
+		      <td> <div align="center"><img src="imagenes/i10.png" width="166" height="142" align="middle"> </div></td>
+		      <td> <div align="center"><img src="imagenes/i11.jpg" width="198" height="192" align="middle"> </div></td>
+		      <td> <div align="center"><img src="imagenes/i12.jpg" width="198" height="156" align="middle"> </div></td>
+	        </tr>
+		    
+		    <tr>
+		      
+		      <td> <div align="center"><img src="imagenes/i13.jpg" width="176" height="166" align="middle"> </div></td>
+		      <td> <div align="center"><img src="imagenes/i14.jpg" width="202" height="181" align="middle"> </div></td>
+		      <td> <div align="center"><img src="imagenes/i15.jpg" width="168" height="188" align="middle"> </div></td>
+	        </tr>
+		    
+		    <tr> 
+		      <td>  <div align="center"></div></td>
+		      <td> <div align="center"><img src="imagenes/i16.jpg" width="163" height="129" align="middle"> </div></td>
+		      <td>  <div align="center"></div></td>
+	        </tr>
+		    </table>
+	  </div>
+	</div>
+	<div data-role="footer">
+		<h4>Bibliografía: http://www.planetacurioso.com/ </h4>
+	</div>
+</div>
+
+<div data-role="page" id="page5">
+	<div data-role="header">
+		<div align="right"><h1 align="center">Aguja Colipinta</h1>		  
+		  <div align="center">
+		    <table width="149" height="118">
+		      <tr>
+		        <td width="66"><div align="justify"><a href="#page2"><img src="imagenes/volver.png" width="61" height="64"></a></div></td>
+		        <td width="71"><div align="justify"><a href="#page1"><img src="imagenes/pagpri.png" width="74" height="75"></a></div></td>
+		        </tr>
+		      <tr>
+		        <td> Volver </td>
+		        <td> Principal </td>
+		        </tr>
+	        </table>
+	      </div>
+      </div>
+	</div>
+	<div data-role="content">
+           
+	  <h1> ¿Sabías que el aguja colipinta vuela durante ocho días sin detenerse? </h1>
+        <br/>
+        <br/>
+           <img src="imagenes/colipinta2.jpg" width="312" height="189" align="absmiddle">
+        <br/>
+        <br/>
+        <p> Asi es, el vuelo más largo de un ave sin escalas le pertenece a aguja colipinta (Limosa lapponica).</p>
+<br/>
+<p> Estas aves vuelan, sin detenerse para comer, beber ni dormir durante más de una semana, a una velocidad media de 56 km/h.</p>
+<br/>
+<p> Uno de los ejemplares monitorizados durante el experimento, una hembra denominada E7, fue equipada con un transmisor durante su estancia invernal en Nueva Zelanda en el año 2007. En su viaje migratorio al norte se dirigió a la Reserva Natural Yalu Jiang y recorrió 10 200 km sin efectuar paradas. Tras unos días de descanso en dicha reserva reemprendió el viaje hacia Alaska en otra única etapa de 7 400 km.</p>
+<br/>
+<p> Su transmisor continuaba operativo cuando inició su vuelo de regreso a Nueva Zelanda tras finalizar su temporada de cría y así se pudo seguir su sorprendente vuelo hacia el sur de 8 días de duración y 11 700 m recorridos en una sola etapa, lo que lo convierte en el vuelo de mayor distancia jamás registrado. </p>
+<br/>
+
+	</div>
+	<div data-role="footer">
+		<h4>Bibliografía: http://www.planetacurioso.com/</h4>
+	</div>
+    </div>
+    
+    <div data-role="page" id="page6">
+<div data-role="header">
+		    <div align="right"><h1 align="center">Ojos de Pulpo</h1>		  
+		  <div align="center">
+		    <table width="149" height="118">
+		      <tr>
+		        <td width="66"><div align="justify"><a href="#page2"><img src="imagenes/volver.png" width="61" height="64"></a></div></td>
+		        <td width="71"><div align="justify"><a href="#page1"><img src="imagenes/pagpri.png" width="74" height="75"></a></div></td>
+		        </tr>
+		      <tr>
+		        <td> Volver </td>
+		        <td> Principal </td>
+		        </tr>
+	        </table>
+	      </div>
+      </div>
+	</div>
+	<div data-role="content">
+           
+	  <h1> ¿Sabías que los pulpos tienen pupilas rectangulares? </h1>
+        <br/>
+        <br/>
+           <img src="imagenes/pulpo2.jpg" width="339" height="219" align="absmiddle">
+        <br/>
+        <br/>
+        <p> Los pulpos poseen pupilas rectangulares, convirtiéndolas en criaturas aún más misteriosas e intimidantes. Además no pueden girar sus ojos como los demás, ya que permanecen en una posición fija.
+La razón por la que estos animales tienen pupilas rectangulares, es para ayudarles a evadir a sus depredadores.
+</p>
+<br/>
+<p> Las pupilas rectangulares tienden a ser muy estrechas durante el día, lo que da a los animales una mayor precisión de la percepción de profundidad en su visión periférica. Gracias este increíble diseño, estos animales son capaces de evitar los depredadores.
+También las pupilas de las ovejas, cabras, y sapos son de forma rectangular. </p>
+<br/>
+<p> El pulpo es el invertebrado con mayor desarrollo del cerebro y los ojos. Al igual que el ser humano, enfoca la vista con precisión y se adapta a los cambios de luz. Además, su lóbulo óptico, que interpreta la información visual, y su magnífico sentido del tacto le permiten tomar decisiones muy inteligentes. </p>
+	</div>
+	<div data-role="footer">
+		<h4>Bibliografía: http://www.planetacurioso.com/</h4>
+	</div>
+    </div>
+    
+        <div data-role="page" id="page7">
+	<div data-role="header">
+		<div align="right"><h1 align="center">Insecto más Raro del Mundo</h1>		  
+		  <div align="center">
+		    <table width="149" height="118">
+		      <tr>
+		        <td width="66"><div align="justify"><a href="#page2"><img src="imagenes/volver.png" width="61" height="64"></a></div></td>
+		        <td width="71"><div align="justify"><a href="#page1"><img src="imagenes/pagpri.png" width="74" height="75"></a></div></td>
+		        </tr>
+		      <tr>
+		        <td> Volver </td>
+		        <td> Principal </td>
+		        </tr>
+	        </table>
+	      </div>
+      </div>
+	</div>
+	<div data-role="content">
+           
+	  <h1> ¿Sabías que el insecto más raro del mundo habita en la misteriosa Pirámide de Ball? </h1>
+        <br/>
+        <br/>
+           <img src="imagenes/insecto2.jpg" width="360" height="204" align="absmiddle">
+        <br/>
+        <br/>
+        <p> En la extraña Pirámide de Ball se encuentra el insecto palo volador más grande del mundo, también conocido como insecto palo de Howe(Dryococelus australis).
+El insecto palo fue muy común en la isla Lord Howe, donde eran usados como cebo para la pesca. El último fue visto en 1920, y después la especie se consideró extinguida. En el año 2001, un equipo de entomólogos y conservacionistas que aterrizó en la Pirámide de Ball, redescubrió al insecto más raro del mundo.
+</p>
+<br/>
+<img src="imagenes/insecto3.jpg" width="342" height="170" align="absmiddle">
+        <br/>
+<p> La Pirámide de Ball es un islote deshabitado que está en el océano Pacífico, frente a la costa de Australia; se trata de un antiguo volcán que emergió hace 7 millones de años. Dicha pirámidees considerada uno de los lugares conocidos más aislados de nuestro planeta. </p>
+<br/>
+<p> En el 2003 un equipo de investigación del National Parks and Wildlife Service de Nueva Gales del Sur regresó a la Pirámide de Ball y recogieron dos parejas reproductoras, una pareja fue llevada a un criador privado en Sídney y el otro al zoo de Melbourne. Cinco años más tarde, la población ya había aumentado hasta los 11.376 huevos y 700 insectos. Algunos de ellos fueron introducidos en la isla de Lord Howe. </p>
+	</div>
+	<div data-role="footer">
+		<h4>Bibliografía: http://www.planetacurioso.com/</h4>
+	</div>
+    </div>
+    
+    
+    <div data-role="page" id="page8">
+	<div data-role="header">
+		<div align="right"><h1 align="center">Tiburon Marrajo </h1>		  
+		  <div align="center">
+		    <table width="149" height="118">
+		      <tr>
+		        <td width="66"><div align="justify"><a href="#page2"><img src="imagenes/volver.png" width="61" height="64"></a></div></td>
+		        <td width="71"><div align="justify"><a href="#page1"><img src="imagenes/pagpri.png" width="74" height="75"></a></div></td>
+		        </tr>
+		      <tr>
+		        <td> Volver </td>
+		        <td> Principal </td>
+		        </tr>
+	        </table>
+	      </div>
+      </div>
+	</div>
+	<div data-role="content">
+           
+	  <h1> ¿Sabías que el “tiburón marrajo” es el animal más rápido del océano?</h1>
+        <br/>
+        <br/>
+           <img src="imagenes/tiburon2.jpg" width="338" height="235" align="absmiddle">
+        <br/>
+        <br/>
+        <p> El tiburón marrajo de aleta corta, también llamado tiburón mako, es animal más rápido del océano, capaz de alcanzar velocidades de más de 124 km/h.
+Alcanza esa increíble velocidad gracias a su potente masa muscular, su aleta caudal en forma de media luna y el hecho de ser homeotermo. Esta combinación perfecta de fuerza y velocidad, también les permite saltar muy alto fuera del agua, alcanzado los 3 y 4 metros de altura.
+ </p>
+<br/>
+<p> Es un animal peligroso para el ser humanodebido a la rapidez con la que puede atacar y a su habilidad para saltar al interior de los botes de pesca.
+El marrajo pertenece a la misma familia que el gran tiburón blanco (Lamnidae) pero es de inferior tamaño, y a diferencia de él, es un tiburón asociado a las profundidades, siendo extraño en aguas someras y cercanas a la costa. Algunos tiburones suele estar entre 3,5 y 4 metros de longitud, con pesos de hasta 750 kg. Los dientes son grandes y muy afilados, incluso sobresalen cuando el tiburón cierra la boca. </p>
+
+	</div>
+	<div data-role="footer">
+		<h4>Bibliografía: http://www.planetacurioso.com/</h4>
+    </div>
+    </div>
+         
+    <div data-role="page" id="page9">
+<div data-role="header">
+		<div align="right"><h1 align="center"> Mariposas Beben Lágrimas de Tortugas </h1>		  
+		  <div align="center">
+		    <table width="149" height="118">
+		      <tr>
+		        <td width="66"><div align="justify"><a href="#page2"><img src="imagenes/volver.png" width="61" height="64"></a></div></td>
+		        <td width="71"><div align="justify"><a href="#page1"><img src="imagenes/pagpri.png" width="74" height="75"></a></div></td>
+		        </tr>
+		      <tr>
+		        <td> Volver </td>
+		        <td> Principal </td>
+		        </tr>
+	        </table>
+	      </div>
+      </div>
+	</div>
+<div data-role="content">
+           
+	  <h1> ¿Sabías que las mariposas beben lágrimas de tortugas?</h1>
+        <br/>
+        <br/>
+           <img src="imagenes/mariposa2.jpg" width="294" height="215" align="absmiddle">
+        <br/>
+        <br/>
+        <p> La mayoría de las mariposas prefieren sobrevivir con néctar de las flores que están llenos de nutrientes esenciales y azúcares que dan energía y vitalidad instantánea a las mariposas. </p>
+        <br/>
+        <p> Sin embargo, las mariposas son atraídas hacia el sodio que se encuentran en la sal y el sudor. Así que, especialmente las mariposas amazónicas han recurrido a lachryphagy, o beber lágrima. Estas descenderán sobre las tortugas, absorbiendo suavemente las lágrimas de sus ojos para redondear sus dietas. Las bellas tortugas son un blanco favorito de las mariposas porque son muy lentas. </p>
+<br/>
+	</div>
+<div data-role="footer">
+		<h4>Bibliografía: http://www.planetacurioso.com/</h4>
+	</div>
+    </div>
+    
+    <div data-role="page" id="page10">
+<div data-role="header">
+		<div align="right"><h1 align="center"> Escarabajos Peloteros Navegan por la Vía Láctea </h1>		  
+		  <div align="center">
+		    <table width="149" height="118">
+		      <tr>
+		        <td width="66"><div align="justify"><a href="#page2"><img src="imagenes/volver.png" width="61" height="64"></a></div></td>
+		        <td width="71"><div align="justify"><a href="#page1"><img src="imagenes/pagpri.png" width="74" height="75"></a></div></td>
+		        </tr>
+		      <tr>
+		        <td> Volver </td>
+		        <td> Principal </td>
+		        </tr>
+	        </table>
+	      </div>
+      </div>
+	</div>
+<div data-role="content">
+           
+	  <h1> ¿Sabías que los escarabajos peloteros navegan por la Vía Láctea?</h1>
+        <br/>
+        <br/>
+           <img src="imagenes/escarabajo2.jpg" width="320" height="227" align="absmiddle">
+        <br/>
+        <br/>
+        <p> Un estudio de 2013 mostró que los pequeños escarabajos utilizan las estrellas para orientarse cuando viajan a lo largo de noches oscuras. Escarabajos peloteros recogerán una bola de estiércol dejado por otro animal, y luego ruedan en un lugar donde otros escarabajos no roben su estiércol. Dado que los insectos les gusta viajar en línea recta, utilizan la Vía Láctea para dirigirse. También pueden utilizar el sol y la luna para navegar. Aunque este comportamiento se ha observado en animales como aves y focas, los escarabajos peloteros son los primeros insectos en hacerlo.  </p>
+<br/>
+	</div>
+<div data-role="footer">
+		<h4>Bibliografía: http://www.planetacurioso.com/</h4>
+	</div>
+    </div>
+    
+    
+     <div data-role="page" id="page11">
+<div data-role="header">
+		<div align="right"><h1 align="center"> Los Delfines No Duermen </h1>		  
+		  <div align="center">
+		    <table width="149" height="118">
+		      <tr>
+		        <td width="66"><div align="justify"><a href="#page2"><img src="imagenes/volver.png" width="61" height="64"></a></div></td>
+		        <td width="71"><div align="justify"><a href="#page1"><img src="imagenes/pagpri.png" width="74" height="75"></a></div></td>
+		        </tr>
+		      <tr>
+		        <td> Volver </td>
+		        <td> Principal </td>
+		        </tr>
+	        </table>
+	      </div>
+      </div>
+	</div>
+<div data-role="content">
+           
+	  <h1> ¿Sabías que los delfines no duermen?</h1>
+        <br/>
+        <br/>
+    <img src="imagenes/delfin2.jpg" width="341" height="223" align="absmiddle"><br/>
+        <br/>
+        <p> Bueno, en parte eso es verdad, ya que los delfines están conscientes mientras duermen. Los delfines, orcas y otras ballenas respiran cuando están dormidos, lo que significa que tienen que tomar una buena cantidad de respiración, ellos no respiran automáticamente como lo hacen los humanos. Por el contrario si se quedan completamente dormidos, se asfixian. Así que los delfines practican el sueño unihemispheric, es decir, apagan la mitad de su cerebro y permanecen semi-conscientes. Es por eso que no se ve delfines soñolientos que flotan en la superficie del océano cada noche.</p>
+<br/>
+	</div>
+<div data-role="footer">
+		<h4>Bibliografía: http://www.planetacurioso.com/</h4>
+	</div>
+    </div>
+    
+     <div data-role="page" id="page12">
+<div data-role="header">
+		<div align="right"><h1 align="center"> Los Cocodrilos No Envejecen </h1>		  
+		  <div align="center">
+		    <table width="149" height="118">
+		      <tr>
+		        <td width="66"><div align="justify"><a href="#page2"><img src="imagenes/volver.png" width="61" height="64"></a></div></td>
+		        <td width="71"><div align="justify"><a href="#page1"><img src="imagenes/pagpri.png" width="74" height="75"></a></div></td>
+		        </tr>
+		      <tr>
+		        <td> Volver </td>
+		        <td> Principal </td>
+		        </tr>
+	        </table>
+	      </div>
+      </div>
+	</div>
+<div data-role="content">
+           
+	  <h1> ¿Sabías que los cocodrilos no envejecen?</h1>
+        <br/>
+        <br/>
+           <img src="imagenes/coco2.jpg" width="349" height="210" align="absmiddle">
+        <br/>
+        <br/>
+        <p> Cuando la mayoría de los animales llegan al final de su ciclo de vida, comienzan a descomponerse y exhibir la senescencia, que conocemos como envejecimiento: el pelo gris, cansancio, disminución del apetito. Algunos animales, como los cocodrilos o tortugas, presentan senescencia insignificante, o no envejecen. Siempre que esten bien alimentados puede seguir creciendo y creciendo. Por supuesto, esto no los hace inmortales, ya que todavía pueden ser víctimas de accidentes o enfermedades. Ante esto, los cocodrilos llegan a los 112 años y las tortugas a los 183 años de edad.</p>
+<br/>
+	</div>
+<div data-role="footer">
+		<h4>Bibliografía: http://www.planetacurioso.com/</h4>
+	</div>
+    </div>
+    
+<div data-role="page" id="page13">
+	<div data-role="header">
+		<div align="right"><h1 align="center"> Búhos Domesticados </h1>		  
+		  <div align="center">
+		    <table width="149" height="118">
+		      <tr>
+		        <td width="66"><div align="justify"><a href="#page2"><img src="imagenes/volver.png" width="61" height="64"></a></div></td>
+		        <td width="71"><div align="justify"><a href="#page1"><img src="imagenes/pagpri.png" width="74" height="75"></a></div></td>
+		        </tr>
+		      <tr>
+		        <td> Volver </td>
+		        <td> Principal </td>
+		        </tr>
+	        </table>
+	      </div>
+      </div>
+	</div>
+<div data-role="content">
+           
+	  <h1> ¿Sabías que los búhos son domesticados por serpientes ciegas?</h1>
+        <br/>
+        <br/>
+       <img src="imagenes/buho2.jpg" width="352" height="236" align="absmiddle">
+    <br/>
+        <br/>
+        <p> Los Autillos Orientales normalmente matan a sus presas antes de llevarlas a casa para alimentar a sus pequeños. Gehlbach y Baldridge observaron que algunos de los búhos que estaban estudiando llevaban Serpientes Ciegas a sus nidos en las cajas de nidificación experimentales. Hallaron que los nidos con serpientes ciegas tenían una cantidad significativamente menor de insectos y arácnidos y que las crías de búho de estos nidos tenían un 25% más de probabilidad de sobrevivir y crecían un 50% más deprisa, en otras palabras, que la presencia de serpientes ciegas mejoraba la salud de las crías de autillos y el bienestar de los adultos.</p>
+<br/>
+	</div>
+	<div data-role="footer">
+		<h4>Bibliografía: http://www.planetacurioso.com/</h4>
+	</div>
+    </div>
+    
+    <div data-role="page" id="page14">
+	<div data-role="header">
+		<div align="right"><h1 align="center"> Brazos de un Pulpo </h1>		  
+		  <div align="center">
+		    <table width="149" height="118">
+		      <tr>
+		        <td width="66"><div align="justify"><a href="#page2"><img src="imagenes/volver.png" width="61" height="64"></a></div></td>
+		        <td width="71"><div align="justify"><a href="#page1"><img src="imagenes/pagpri.png" width="74" height="75"></a></div></td>
+		        </tr>
+		      <tr>
+		        <td> Volver </td>
+		        <td> Principal </td>
+		        </tr>
+	        </table>
+	      </div>
+      </div>
+	</div>
+	<div data-role="content">
+           
+	  <h1> ¿Sabías que los brazos del pulpo tienen su propio cerebro?</h1>
+        <br/>
+        <br/>
+           <img src="imagenes/pulpoc2.jpg" width="356" height="235" align="absmiddle">
+        <br/>
+        <br/>
+        <p> Los pulpos tienen un cerebro central, sin embargo cada tentáculo tiene su propio cerebro también. Así que el cerebro principal sólo necesita enviar un mensaje simple a uno de los brazos, donde se encuentran dos tercios de las neuronas del pulpo. Esto significa que si se cortan un brazo del pulpo, el brazo todavía puede reaccionar como lo haría si estuviera conectada al pulpo. Y parece que está funcionando bien para ellos ya que los pulpos son algunos de las más animales sorprendentemente inteligentes.</p>
+<br/>
+	</div>
+	<div data-role="footer">
+		<h4>Bibliografía: http://www.planetacurioso.com/</h4>
+	</div>
+    </div>
+    
+    
+     <div data-role="page" id="page15">
+	<div data-role="header">
+		<div align="right"><h1 align="center"> Corazón de una Mujer </h1>		  
+		  <div align="center">
+		    <table width="149" height="118">
+		      <tr>
+		        <td width="66"><div align="justify"><a href="#page3"><img src="imagenes/volver.png" width="61" height="64"></a></div></td>
+		        <td width="71"><div align="justify"><a href="#page1"><img src="imagenes/pagpri.png" width="74" height="75"></a></div></td>
+		        </tr>
+		      <tr>
+		        <td> Volver </td>
+		        <td> Principal </td>
+		        </tr>
+	        </table>
+	      </div>
+      </div>
+	</div>
+	<div data-role="content">
+           
+	  <h1> ¿Sabías que el corazón de una mujer late más rápido que el de un hombre?</h1>
+        <br/>
+        <br/>
+           <img src="imagenes/cmujer2.jpg" width="327" height="201" align="absmiddle">
+        <br/>
+        <br/>
+        <p> Así es, los corazones de las mujeres laten más rápido que los de los hombres debido a que el órgano femenino es más pequeño y por tanto tienen que compensar su tamaño. En promedio, el peso del corazón de un hombre es de 275 gramos y 250 gramos en la mujer.</p>
+<br/>
+<p> La frecuencia cardíaca promedio de una mujer adulta es de alrededor de 78 latidos por minuto, ocho latidos más rápido que la frecuencia cardíaca promedio de un hombre adulto.</p>
+<br/>
+<p>Cuando hay un esfuerzo de por medio, las mujeres suelen tener unas 10 pulsaciones más que un hombre, esto depende del nivel de actividad de cada persona. </p>
+<br/>
+<p> La American Heart Association dice que el ritmo cardíaco en reposo debería ser de 60 a 80 latidos por minuto. De acuerdo a la Clínica Cleveland, las mujeres tienen una tendencia a poseer un ritmo más rápido a partir de los cinco años de edad. </p>
+<br/>
+<p> Sin embargo, los expertos dicen que esto no tiene ningún efecto en la salud general del corazón de las mujeres durante sus vidas o el tipo de problemas del corazón que desarrollen. </p>
+	</div>
+	<div data-role="footer">
+		<h4>Bibliografía: http://www.planetacurioso.com/</h4>
+	</div>
+    </div>
+    
+    <div data-role="page" id="page16">
+	<div data-role="header">
+		<div align="right"><h1 align="center"> Envejecimiento </h1>		  
+		  <div align="center">
+		    <table width="149" height="118">
+		      <tr>
+		        <td width="66"><div align="justify"><a href="#page3"><img src="imagenes/volver.png" width="61" height="64"></a></div></td>
+		        <td width="71"><div align="justify"><a href="#page1"><img src="imagenes/pagpri.png" width="74" height="75"></a></div></td>
+		        </tr>
+		      <tr>
+		        <td> Volver </td>
+		        <td> Principal </td>
+		        </tr>
+	        </table>
+	      </div>
+      </div>
+	</div>
+	<div data-role="content">
+           
+	  <h1> ¿Sabías que el envejecimiento comienza incluso antes de nacer?</h1>
+        <br/>
+        <br/>
+           <img src="imagenes/envejecer2.jpg" width="353" height="221" align="absmiddle">
+        <br/>
+        <br/>
+        <p> <h5>¿Miedo a envejecer?</h5>A la mayoría de nosotros no nos gusta mucho la idea de envejecer, pero ¿sabías que el proceso de envejecimiento comienza antes de nacer? Eso es lo que revela un nuevo estudio realizado en Londres. </p>
+<br/>
+<p> El experimento en el que se utilizaron ratas para modelar el embarazo y el desarrollo fetal; mostró que las madres con una dieta cargada de antioxidantes durante el embarazo, retrasaron el envejecimiento de su descendencia. </p>
+<br/>
+<p>El estudio, publicado en The FASEB Journal, también hizo hincapié que el medio ambiente en el que estamos expuestos en el útero puede causar enfermedades del corazón.
+Por otra parte, los investigadores encontraron que las ratas adultas nacidas de madres que tenían menos oxígeno durante el embarazo, contenían telómeros más cortos, es decir, células no podían dividirse más y que finalmente murieron. Sin embargo, cuando las madres embarazadas se les dio suplementos antioxidantes, esto redujo el riesgo de desarrollar enfermedades del corazón y a la vez detener el envejecimiento. </p>
+<br/>
+<p> Aunque el experimento fue realizado en ratas, la investigación sugiere que podría ser aplicable en seres humanos y se centra en la necesidad de que las mujeres embarazadas tenga un vida saludable. </p>
+	</div>
+	<div data-role="footer">
+		<h4>Bibliografía: http://www.planetacurioso.com/</h4>
+	</div>
+    </div>
+    
+    <div data-role="page" id="page17">
+	<div data-role="header">
+		<div align="right"><h1 align="center"> Primer Computadora </h1>		  
+		  <div align="center">
+		    <table width="149" height="118">
+		      <tr>
+		        <td width="66"><div align="justify"><a href="#page3"><img src="imagenes/volver.png" width="61" height="64"></a></div></td>
+		        <td width="71"><div align="justify"><a href="#page1"><img src="imagenes/pagpri.png" width="74" height="75"></a></div></td>
+		        </tr>
+		      <tr>
+		        <td> Volver </td>
+		        <td> Principal </td>
+		        </tr>
+	        </table>
+	      </div>
+      </div>
+	</div>
+	<div data-role="content">
+           
+	  <h1> ¿Sabías que la primer computadora electrónica se presenta el 15 de febrero de 1946?</h1>
+        <br/>
+        <br/>
+           <img src="imagenes/compu2.png" width="337" height="196" align="absmiddle">
+        <br/>
+        <br/>
+        <p> <h4> La ENIAC fue la primera computadora de propósitos generales. La computadora podía calcular trayectorias de proyectiles, lo cual fue el objetivo primario al construirla. En 1,5 segundos era posible calcular la potencia 5000 de un número de hasta 5 cifras. La ENIAC podía resolver 5000 sumas o 300 multiplicaciones en 1 segundo.</h4> </p>
+	</div>
+	<div data-role="footer">
+		<h4>Bibliografía: http://www.planetacurioso.com/</h4>
+	</div>
+    </div>
+    
+        <div data-role="page" id="page18">
+	<div data-role="header">
+		<div align="right"><h1 align="center"> La Vía Láctea </h1>		  
+		  <div align="center">
+		    <table width="149" height="118">
+		      <tr>
+		        <td width="66"><div align="justify"><a href="#page3"><img src="imagenes/volver.png" width="61" height="64"></a></div></td>
+		        <td width="71"><div align="justify"><a href="#page1"><img src="imagenes/pagpri.png" width="74" height="75"></a></div></td>
+		        </tr>
+		      <tr>
+		        <td> Volver </td>
+		        <td> Principal </td>
+		        </tr>
+	        </table>
+	      </div>
+      </div>
+	</div>
+	<div data-role="content">
+           
+	  <h1> ¿Sabías que la Vía Láctea se mueve por el Universo a más de 2 millones de km/h, impulsada por un vacío extragaláctico?</h1>
+        <br/>
+        <br/>
+           <img src="imagenes/vialactea2.jpg" width="372" height="249" align="absmiddle">
+        <br/>
+        <br/>
+        <p> Ya te hemos contado algunos datos curiosos del universo, del que solo conocemos un 4%. Pero, ¿sabías que nuestra galaxia está siendo empujada por una gran fuerza invisible a más de 2 millones de km/h, es decir 630 km. por segundo? </p>
+        <br/>
+<p>Un estudio publicado este lunes por la revista Nature Astronomy explica que uno de los responsables de este movimiento sería un inmenso vacío extragaláctico, una enorme región del universo que está a unos 500 millones de años luz.</p>
+<br/>
+<p>El cosmólogo Yehuda Hoffman que ha dirigido la investigación, ha elaborado junto a su equipo un nuevo mapa tridimensional de nuestros alrededores galácticos, y en él ha encontrado, por primera vez, esa misteriosa “zona muerta”, a la que ha bautizado como “Dipolo repulsor”. La nueva fuerza, le está ayudando a nuestra galaxia en su travesía para ampliar el universo. </p>
+<br/>
+<p>Se trata de la primera evidencia real de que algo tan grande y vacío esté justo detrás de nosotros. Ahora, los investigadores se afanan para confirmar definitivamente su existencia. Otra posible explicación sería que esa región no sea una sola, sino toda una acumulación de supercúmulos y espacios vacíos, todos trabajando para repelernos, mientras que el supercúmulo de Shapley nos atrae.</p>
+<br/>
+<p> Es poco lo que se sabe sobre el “Dipolo repulsor” o las galaxias dentro de él, pero entenderlo mejor puede aumentar nuestra comprensión del universo y su funcionamiento.
+ </p>
+	</div>
+	<div data-role="footer">
+		<h4>Bibliografía: http://www.planetacurioso.com/</h4>
+	</div>
+    </div>
+    
+    <div data-role="page" id="page19">
+	<div data-role="header">
+		<div align="right"><h1 align="center"> Las Auroras de Júpiter </h1>		  
+		  <div align="center">
+		    <table width="149" height="118">
+		      <tr>
+		        <td width="66"><div align="justify"><a href="#page3"><img src="imagenes/volver.png" width="61" height="64"></a></div></td>
+		        <td width="71"><div align="justify"><a href="#page1"><img src="imagenes/pagpri.png" width="74" height="75"></a></div></td>
+		        </tr>
+		      <tr>
+		        <td> Volver </td>
+		        <td> Principal </td>
+		        </tr>
+	        </table>
+	      </div>
+      </div>
+	</div>
+	<div data-role="content">
+           
+	  <h1> Las sorprendentes auroras de Jupiter, ¿porqué son diferentes a las de la Tierra?</h1>
+        <br/>
+        <br/>
+           <img src="imagenes/jupiter2.jpg" width="338" height="232" align="absmiddle">
+        <br/>
+        <br/>
+        <p> Lo más curioso de esto es que se trata de auroras mucho más grandes que las que se ven en la Tierra, cientos de veces con más energía que las de la Tierra y nunca cesan, impresionante, ¿verdad? </p>
+        <br/>
+<p>El telescopio espacial Hubble de la Nasa y la Agencia Espacial Europea (ESA) ha captado las impresionantes auroras en los polos de Júpiter, que en sólo dos día más recibirá la visita de la nave Juno.</p>
+ <br/>
+<p> Como es bien sabido Júpiter es el planeta más grande del sistema solar, y es conocido por sus tormentas de colores, como la Gran Mancha Roja. Pero esta vez, llama la atención las auroras. </p>
+<br>
+<p> Estos brillos se crean a partir de las partículas de alta energía que entran en la atmósfera de un planeta cerca de sus polos magnéticos y chocan con los átomos de gas. 
+ </p>
+ <br/>
+ <h3> MIRA EL VIDEO: (Cortesía de la NASA) </h3>
+<a href="https://youtu.be/dplSgv6qlMk"><img src="imagenes/video.png" width="61" height="64"></a>
+<br/>
+<h3> TIME-LAPSE (Cortesía de ESA) </h3>
+<a href="https://youtu.be/ihDFCs3o-gI"><img src="imagenes/video.png" width="61" height="64"></a>
+<br/>
+<h3>¿Por qué son diferentes las auroras de Júpiter?</h3>
+<br/>
+<p>Las auroras que se producen en la Tierra son causadas por las tormentas solares, las partículas cargadas llueven sobre la atmósfera superior, excitan los gases y hacen que se iluminen de color rojo, verde y púrpura. Pero Júpiter tiene una fuente adicional de auroras. El fuerte campo magnético del gigantes de gas captura las partículas cargadas de su entorno. Esto incluye no sólo las partículas cargadas en el viento solar, sino también las lanzadas al espacio por su luna Io, conocida por sus numerosos y grandes volcanes, como explica el sitio ABC.es.</p>
+
+	</div>
+	<div data-role="footer">
+		<h4>Bibliografía: http://www.planetacurioso.com/</h4>
+	</div>
+    </div>
+    
+    <div data-role="page" id="page20">
+	<div data-role="header">
+		<div align="right"><h1 align="center"> El Niño que Fue Campeón </h1>		  
+		  <div align="center">
+		    <table width="149" height="118">
+		      <tr>
+		        <td width="66"><div align="justify"><a href="#page3"><img src="imagenes/volver.png" width="61" height="64"></a></div></td>
+		        <td width="71"><div align="justify"><a href="#page1"><img src="imagenes/pagpri.png" width="74" height="75"></a></div></td>
+		        </tr>
+		      <tr>
+		        <td> Volver </td>
+		        <td> Principal </td>
+		        </tr>
+	        </table>
+	      </div>
+      </div>
+	</div>
+	<div data-role="content">
+           
+	  <h1> El niño que fue campeón olímpico porque pasaba por allí…</h1>
+        <br/>
+        <br/>
+           <img src="imagenes/niño2.jpg" width="380" height="229" align="absmiddle">
+        <br/>
+        <br/>
+        <p>Corría el año 1900 y estaban a punto de comenzar los juegos Olimpicos, famoso por su pésima organización. Ver Nota. Es ahi cuando los remeros holandeses Roelof Klein y Francois Brandt descubren horrorizados que su timonel excede el peso reglamentario y por tanto no podrá participar.</p>
+        <br/>
+<p>Entonces los remeros se encuentran por las calles parisinas a un niño, a quien piden de su ayuda para que les guiara durante la regata en el Río Sena. Segun el relato, el niño pesaba unos 33 kilos con una edad aproximada entre 7 y 10 años. El niño acepta. Increible como parezca, esta pareja junto con el joven y el desconocido niño francés ganan la carrera.</p>
+<br/>
+<p>Tras recoger su premio y ser ovacionado por el público presente, el joven niño se pierde entre las calles parisinas para nunca más ser visto. </p>
+<br/>
+<p>El nombre de este heroico joven es desconocido, y su edad es estimada según algunos historiadores como el holandés Tony Bijker, entre los 12 y 14 años, lo cierto es que ha resultado ser el campeon olimpico más joven de la historia, e imaginarse que tan sólo paseaba por las concurridas calles parisinas.</p>
+<br/>
+
+	</div>
+	<div data-role="footer">
+		<h4>Bibliografía: http://www.planetacurioso.com/</h4>
+	</div>
+    </div>
+    
+        <div data-role="page" id="page21">
+	<div data-role="header">
+		<div align="right"><h1 align="center"> El Terrorífico Gusano del Fondo Marino </h1>		  
+		  <div align="center">
+		    <table width="149" height="118">
+		      <tr>
+		        <td width="66"><div align="justify"><a href="#page3"><img src="imagenes/volver.png" width="61" height="64"></a></div></td>
+		        <td width="71"><div align="justify"><a href="#page1"><img src="imagenes/pagpri.png" width="74" height="75"></a></div></td>
+		        </tr>
+		      <tr>
+		        <td> Volver </td>
+		        <td> Principal </td>
+		        </tr>
+	        </table>
+	      </div>
+      </div>
+	</div>
+	<div data-role="content">
+           
+	  <h1> El Terrorífico Gusano del fondo marino que se esconde en la arena para atacar peces</h1>
+        <br/>
+        <br/>
+           <img src="imagenes/gusanogif.gif" width="337" height="219" align="absmiddle">
+        <br/>
+        <br/>
+        <h3> Una trampa oculta para peces incautos </h3>
+        <br/>
+<p>Si pensabas que todo era bello en el fondo marino, como se puede ver en la pelicula “Buscando a Dory“, pues te equivocas. En el suelo marino se esconden terroríficos gusanos que son una trampa mortal para los peces. Nunca se sabe dónde estara uno.</p>
+<br/>
+<p>Este gusano, un verdadero atacante de arena, se entierra en la arena y puede alargarse tanto como para devorarse a un inocente pez. “No tiene ojos ni cerebro“, aseguran en Smithsonian Channel, donde fue publicado este documental. Aunque a decir verdad, los gusanos marinos sí poseen una clase de cerebro, no como lo imaginamos, poseen ganglios cerebroides. Aun así es impresionante su forma de alimentarse. </p>
+
+	</div>
+	<div data-role="footer">
+		<h4>Bibliografía: http://www.planetacurioso.com/</h4>
+	</div>
+    </div>
+</div>
+</body>
+</html>
